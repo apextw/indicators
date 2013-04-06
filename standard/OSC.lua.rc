@@ -1,0 +1,189 @@
+include=common.lua.rc
+default=enu
+[enu]
+codepage=1252
+name=OSC Oscillator
+description=Compares where a security price closed relative to its price range over a given time period.
+param_N_name=Long term
+param_N_description=The number of periods for the long Simple Moving Average.
+param_M_name=Short term
+param_M_description=The number of periods for the short Simple Moving Average.
+param_OSC_line_name=Oscillator line
+
+[ara]
+codepage=1256
+name=مؤشر المذبذبات
+description=يقارن سعر الاغلاق مع معدل تحرك السعر خلال فترة معينة
+param_N_name=اعتمد فترة طويلة
+param_N_description=عدد فترات long Simple Moving Average
+param_M_name=اعتمد فترة قصيرة
+param_M_description=عدد فترات short Simple Moving Average
+param_OSC_line_name=خط مؤشر المذبذبات
+
+[chs]
+codepage=936
+name=摆荡指标
+description=对比收盘价与过去某一时期的交易区间
+param_N_name=长期
+param_N_description=长移动平均线时期
+param_M_name=短期
+param_M_description=短移动平均线时期
+param_OSC_line_name=摆荡指标线
+
+[cht]
+codepage=950
+name=擺盪指標
+description=對比收盤價與過去某一時期的交易區間
+param_N_name=長期
+param_N_description=長移動平均線時期
+param_M_name=短期
+param_M_description=短移動平均線時期
+param_OSC_line_name=擺盪指標線
+
+[ctt]
+codepage=950
+name=擺盪指標
+description=對比收盤價與過去某一時期的交易區間
+param_N_name=長期
+param_N_description=長移動平均線時期
+param_M_name=短期
+param_M_description=短移動平均線時期
+
+[deu]
+codepage=1252
+name=OSC Oszillator
+description=Zieht einen verhältnismäßigen Vergleich zwischen dem Schlusspreis eines Wertpapiers und der Kursspanne über einer gewissen Zeitspanne
+param_N_name=Lange Periode definieren
+param_N_description=Anzahl von Perioden des einfachen gleitenden Durchschnitts.
+param_M_name=Kurze Periode definieren
+param_M_description=Anzahl von Perioden des einfachen gleitenden Durchschnitts.
+param_OSC_line_name=Oszilatorenlinie
+
+[esp]
+codepage=1252
+name=Oscilador OSC
+description=Compara el precio de un título de valor con respecto a su rango de precios dado en un lapso de tiempo determinado.
+param_N_name=Determinar período largo
+param_N_description=El número de periodos para la media móvil simple
+param_M_name=Determinar período corto
+param_M_description=El número de periodos para la media móvil simple de corto plazo
+param_OSC_line_name=línea Osciladora.
+
+[fra]
+codepage=1252
+name=Oscillateur OSC
+description=Compare la où un prix à clôturé en rapport à un prix sur une période donnée.
+param_N_name=Mettre en place une période à long terme
+param_N_description=Le nombre de périodes pour une moyenne mobile simple sur long terme.
+param_M_name=Mettre en place une période à court terme
+param_M_description=Le nombre de périodes pour une moyenne mobile simple sur court terme.
+param_OSC_line_name=ligne de l'oscillateur
+
+[jpn]
+codepage=932
+name=OSC オシレーター（相対性指数）
+description=クローズされたセキュリティープライスと特定の期間のプライスレンジの関連性を比較します
+param_N_name=ロング・ピリオドを設定
+param_N_description=ロング・ピリオド単純移動平均の期間
+param_M_name=ショート・ピリオドを設定
+param_M_description=ショート・ピリオド単純移動平均の期間
+param_OSC_line_name=Oscillatorライン
+
+[kor]
+codepage=949
+name=OSC (OSC Oscillator)
+description=주어진 기간의 가격 범위네에서 닫힌 담보가격 비교
+param_N_name=장기간 정하기
+param_N_description=긴 단순 이동평균의 기간 개수
+param_M_name=단기간 정하기
+param_M_description=짧은 단순 이동평균의 기간 개수
+
+[rus]
+codepage=1251
+name=Осциллятор OSC
+description=Показывает отношение цены, по которой период бы закрыт, с диапазоном цен за этот период.
+param_N_name=Длинный период
+param_N_description=Количество периодов для длинного простого скользящего среднего.
+param_M_name=Короткий период
+param_M_description=Количество периодов для короткого простого скользящего среднего.
+param_OSC_line_name=линии осциллятора OSC
+
+[tur]
+codepage=1254
+name=OSC Osilatörü
+description=Belirtilen zaman periyodunda kapanış fiyatının fiyat aralığına göre yerini karşılaştırır.
+param_N_name=Uzun dönem
+param_N_description=Uzun Basit Hareketli Ortalama'nın periyot sayısı.
+param_M_name=Kısa dönem
+param_M_description=Kısa Basit Hareketli Ortalama'nın periyot sayısı.
+param_OSC_line_name=Osilatör çizgisinin
+
+[ita]
+codepage=1252
+name=OSC Oscillator
+description=Paragona la chiusura più recente di un attività finanziaria con la sua escursione calcolata su un dato periodo temporale
+param_N_name=Lungo periodo
+param_N_description=Il numero di periodi per la Long Simple Moving Average
+param_M_name=Breve periodo
+param_M_description=Il numero di periodi per la Short Simple Moving Average
+param_OSC_line_name=linea dell'Oscillatore
+
+[heb]
+codepage=1255
+name=מתנד OSC
+description=בוחן את מחיר הסגירה ביחס לטווח המחיר בתקופה הנתונה.
+param_N_name=טווח ארוך
+param_N_description=מספר התקופות של הממוצע הפשוט הארוך.
+param_M_name=טווח קצר
+param_M_description=מספר התקופות של הממוצע הפשוט הקצר.
+param_OSC_line_name=הקו של המתנד
+
+[pol]
+codepage=1250
+name=Oscylator zwykły
+description=Porównuje gdzie cena zamknęła się w relacji do zakresu osiąganego w danym okresie
+param_N_name=Długi okres
+param_N_description=Liczba okresów dla długiej zwykłej średniej kroczącej
+param_M_name=Krótki okres
+param_M_description=Liczba okresów dla krótkiej zwykłej średniej kroczącej
+param_OSC_line_name=linii oscylatora
+
+[cze]
+codepage=1250
+name=OSC Oscilátor
+description=Porovnává, kde cena uzavřela ve vztahu k rozpětí cen za určité období
+param_N_name=Dlouhodobý
+param_N_description=Počet period dlouhého jednoduchého klouzavého průměru.
+param_M_name=Krátkodobý
+param_M_description=Počet period krátkého jednoduchého klouzavého průměru.
+param_OSC_line_name=linky oscilátoru
+
+[por]
+codepage=1252
+name=Oscilador OSC
+description=Compara o preço em que um título de valor fecha relativo ao seu intervalo de preços, dado um lapso de tempo determinado.
+param_N_name=Determinar prazo longo
+param_N_description=O número de períodos para a média móvel simples de longo prazo
+param_M_name=Determinar curto prazo
+param_M_description=O número de períodos para a media móvel simples de curto prazo
+param_OSC_line_name=linha do Oscilador
+
+[gre]
+codepage=1253
+name=Ταλαντωτής OSC
+description=Συγκρίνει το κλείσιμο της τιμής ενός αξιόγραφου σε σχέση με τα όρια διακύμανσής της μέσα σε μια συγκεκριμένη χρονική περίοδο.
+param_N_name=Μακροπρόθεσμος
+param_N_description=Ο αριθμός των περιόδων για το μακροπρόθεσμο Απλό Κινητό Μέσο Όρο.
+param_M_name=Βραχυπρόθεσμος
+param_M_description=Ο αριθμός των περιόδων για το βραχυπρόθεσμο Απλό Κινητό Μέσο Όρο.
+param_OSC_line_name=γραμμής Oscillator
+
+[hun]
+codepage=0
+name=OSC Oscillátor
+description=Megmutatja, hogy egy instrumentum hol zár egy időszak árfolyamsávjához képest.
+param_N_name=Hosszú táv
+param_N_description=Beállíthatja a hosszú Egyszerű Mozgóátlag periódusainak számát.
+param_M_name=Rövid táv
+param_M_description=Beállíthatja a rövid Egyszerű Mozgóátlag periódusainak számát.
+param_OSC_line_name=Oszcillátor 

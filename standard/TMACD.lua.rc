@@ -1,0 +1,192 @@
+﻿include=common.lua.rc
+default=enu
+[enu]
+codepage=1252
+name=Triangular Moving Average Convergence/Divergence
+description=A double-smoothed simple moving average where the middle portion of the data has more weight.
+param_SN_name=Short TMA
+param_SN_description=The number of periods of the short TMA.
+param_LN_name=Long TMA
+param_LN_description=The number of periods of the long TMA.
+param_TMACD_line_name=Triangular Moving Average Convergence/Divergence line
+
+[ara]
+codepage=1256
+name=مؤشر المثلث المعدل المتحرك للتقارب/الانحراف
+description=معدل متحرك مزدوج في الجزء المنتصف الذي يحمل أهم المعلومات
+param_SN_name=شورت TMA
+param_SN_description=عدد فترات الشورت TMA
+param_LN_name=لونغ TMA
+param_LN_description=عدد فترات اللونغ TMA
+param_TMACD_line_name=الخط لمؤشر المثلث المعدل المتحرك للتقارب/الانحراف
+
+[chs]
+codepage=936
+name=三重移户平均汇聚背驰指标
+description=经过双重平滑后的移动平均线中间部分具有更多的权重
+param_SN_name=短TMA
+param_SN_description=短TMA时期
+param_LN_name=长TMA
+param_LN_description=长TMA时期
+param_TMACD_line_name=三重移户平均汇聚背驰指标线
+
+[cht]
+codepage=950
+name=三重移戶平均匯聚背馳指標
+description=經過雙重平滑後的移動平均線中間部分具有更多的權重
+param_SN_name=短TMA
+param_SN_description=短TMA時期
+param_LN_name=長TMA
+param_LN_description=長TMA時期
+param_TMACD_line_name=三重移戶平均匯聚背馳指標線
+
+[ctt]
+codepage=950
+name=三重移戶平均匯聚背馳指標
+description=經過雙重平滑後的移動平均線中間部分具有更多的權重
+param_SN_name=
+param_SN_description=
+param_LN_name=
+param_LN_description=
+param_TMACD_line_name=
+
+[deu]
+codepage=1252
+name=Triangular moving average convergence/divergence
+description=Doppel-geglätteter gleitender Durchschnitt wobei Mittedatei ins stärkere Gewicht fällt.
+param_SN_name=Kurz TMA
+param_SN_description=Zahl der Perioden des kurzen TMAs
+param_LN_name=Lang TMA
+param_LN_description=Zahl der Perioden des langen TMAs
+param_TMACD_line_name=Triangular-Moving Average-Convergence/Divergence Linie
+
+[esp]
+codepage=1252
+name=Convergencia/Divergencia Media Móvil Triangular
+description=Una Media Móvil simple donde la parte media asume más importancia
+param_SN_name=TMA corto
+param_SN_description=El numero de periodos del TMA en venta
+param_LN_name=TMA largo
+param_LN_description=El numero de periodos del TMA en compra
+param_TMACD_line_name=línea de convergencia/divergencia media móvil triangular
+
+[fra]
+codepage=1252
+name=Moyenne mobile triangulaire convergente/divergente
+description=Une moyenne mobile doublement lissée dont la portion des données du milieu à plus de poids.
+param_SN_name=TMA courte
+param_SN_description=Le nombre de périodes de la TMA courte
+param_LN_name=TMA longue
+param_LN_description=Le nombre de périodes de la TMA longue
+param_TMACD_line_name=ligne de la moyenne mobile triangulaire convergente/divergente
+
+[jpn]
+codepage=932
+name=TMACD（三角移動平均 収束・拡大）
+description=中間部分におけるウェイトを重視した、二重に平滑化された単純移動平均線です。
+param_SN_name=ショートTMA
+param_SN_description=ショートTMAの期間の数。
+param_LN_name=ロングTMA
+param_LN_description=ロングTMAの期間の数。
+param_TMACD_line_name=TMACD（三角移動平均 収束・拡大）ライン
+
+[kor]
+codepage=949
+name=삼각 이동평균 수렴확산 (Triangular Moving Average Convergence Divergence)
+description=중간 데이터가 더 비중이있는 두번 부드럽게 만든 이동평균
+param_SN_name=
+param_SN_description=
+param_LN_name=
+param_LN_description=
+param_TMACD_line_name=
+
+[rus]
+codepage=1251
+name=Схождение/расхождение треугольных скользящих средних
+description=Дважды сглаженное простое скользящее среднее, в котором больший вес имеют цены середины периода.
+param_SN_name=Короткий TMA
+param_SN_description=Количество периодов короткого TMA.
+param_LN_name=Длинный TMA
+param_LN_description=Количество периодов длинного TMA.
+param_TMACD_line_name=линии схождения/расхождения треугольных скользящих средних
+
+[tur]
+codepage=1254
+name=Üçgensel Hareketli Ortalamaların Yakınsaması/Iraksaması
+description=Ortadaki verinin ağırlığının daha çok olduğu iki kere düzlenmiş basit hareketli ortalama.
+param_SN_name=Kısa TMA
+param_SN_description=Kısa TMA periyot sayısı
+param_LN_name=Uzun TMA
+param_LN_description=Uzun TMA periyot sayısı
+param_TMACD_line_name=Üçgensel Hareketli Ortalamaların Yakınsaması/Iraksaması çizgi
+
+[ita]
+codepage=1252
+name=Triangular Moving Average Convergence/Divergence
+description=Una simple moving average doppiamente smorzata dove la porzione di dati centrali ha più peso
+param_SN_name=Short TMA
+param_SN_description=Il numero di periodi di short TMA.
+param_LN_name=Long TMA
+param_LN_description=Il numero di periodi di long TMA.
+param_TMACD_line_name=linea del Triangular Moving Average Convergence/Divergence
+
+[heb]
+codepage=1255
+name=ממוצע נע משולש התכנסות\התפצלות
+description=ממוצע נע פשוט מוחלק שבו המקטע האמצעי של הנתונים מקבל חשיבות גדולה יותר.
+param_SN_name=ה-TMA הקצר
+param_SN_description=מספר התקופות עבור ה-TMA הקצר
+param_LN_name=ה-TMA הארוך
+param_LN_description=מספר התקופות עבור ה-TMA הארוך
+param_TMACD_line_name=הקו של הממוצע הנע המשולש התכנסות\התפצלות
+
+[pol]
+codepage=1250
+name=Trójkątna średnia krocząca
+description=Dwukrotnie gładzona zwykła średnia krocząca, w której dane ze środkowej części okresu mają większą wagę
+param_SN_name=Krótka TMA
+param_SN_description=Liczba okresów krótkiej TMA.
+param_LN_name=Długa TMA
+param_LN_description=Liczba okresów długiej TMA.
+param_TMACD_line_name=linii trójkątnej średniej kroczącej
+
+[cze]
+codepage=1250
+name=Trojúhelníkový klouzavý průměr Konvergence/Divergence
+description=Jednoduchý, dvojitě vyhlazený klouzavý průměr, při kterém mají větší váhu údaje ze středu periody
+param_SN_name=Krátkodobý TMA
+param_SN_description=Počet period krátkodobého trojúhelníkového klouzavého průměru
+param_LN_name=Dlouhodobý TMA
+param_LN_description=Počet period dlouhodobého trojúhelníkového klouzavého průměru
+param_TMACD_line_name=trojúhelníkového klouzavého průměru konvergence/divergence
+
+[por]
+codepage=1252
+name=Convergência/Divergência da Média Móvel Triangular
+description=Uma Média Móvel simples onde a parte do meio assume mais importancia.
+param_SN_name=TMA Curta
+param_SN_description=O número de períodos da TMA curta.
+param_LN_name=TMA Longa
+param_LN_description=O número de períodos da TMA longa.
+param_TMACD_line_name=linha de convergência/divergência média móvel triangular
+
+[gre]
+codepage=1253
+name=Triangular Moving Average Convergence/Divergence
+description=Ένας απλός κινητός μέσος όρος που έχει εξομαλυνθεί διπλά, στον οποίο η μέση ποσότητα των δεδομένων έχει περισσότερη βαρύτητα.
+param_SN_name=Short TMA
+param_SN_description=Ο αριθμός των περιόδων για τον Short TMA
+param_LN_name=Long TMA
+param_LN_description=Ο αριθμός των περιόδων για τον Long TMA
+param_TMACD_line_name=γραμμής του Triangular Moving Average Convergence/Divergence
+
+[hun]
+codepage=0
+name=Tringular Mozgóátlag Konvergencia/Divergencia
+description=Duplán simított mozgóátlag, amely esetében az adatok középső része nagyobb súlyt kap.
+param_SN_name=Short TMA
+param_SN_description=Beállíthatja a Short TMA periódusainak számát.
+param_LN_name=Long TMA
+param_LN_description=Beállíthatja a Long TMA periódusainak számát.
+param_TMACD_line_name=Trianguláris Mozgóátlag Konvergencia/Divergencia vonal
+
