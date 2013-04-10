@@ -50,7 +50,6 @@ function Prepare()
     require("RSIDState");
     
     RSID:addLevel(-0.9);
-    RSID:addLevel(0);
     RSID:addLevel(0.9);
     
     RSIDState.init(source, RSI, BB);
