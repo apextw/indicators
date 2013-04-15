@@ -3,7 +3,7 @@
 function Init()
     indicator:name("RSIDivergence");
     indicator:description("RSI Divergence");
-    indicator:requiredSource(core.Tick);
+    indicator:requiredSource(core.Bar);
     indicator:type(core.Oscillator);
     indicator:setTag("group", "Classic Oscillators");
 
@@ -42,11 +42,10 @@ function Prepare()
     local name = profile:id() .. "(" .. source:name() .. ", " .. rsiN .. ")";
     instance:name(name);
 
-	RSI = core.indicators:create("RSI", source, rsiN);
-    BB = core.indicators:create("BB", source, bbN, bbDiv);
+	RSI = core.indicators:create("RSI", source.close, rsiN);
+    BB = core.indicators:create("BB", source.close, bbN, bbDiv);
     first = math.max(RSI.DATA:first(), BB.DATA:first()) + 1;
     RSID = instance:addStream("RSID", core.Line, name, "RSID", instance.parameters.rsid, first);
-
     require("RSIDState");
     
     RSID:addLevel(-0.9);
